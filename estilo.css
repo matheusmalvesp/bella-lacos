@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,300;1,400;1,500&display=swap');
+
+
+:root{
+  --cor-principal: #FFAEA3;
+  --cor-texto: #331612;
+  --cor-clara: #CCAFAB;
+  --cor-neutra:#fff;
+  --fonte-principal: 'Courgette', cursive;
+  --texto-simples: 'Noto Sans', sans-serif;
+}
+
+nav{
+  background-color: var(--cor-principal);
+}
+
+#logo{
+  max-width: 8rem;
+}
+
+#navbar{
+  background-color: var(--cor-principal);  
+  font-family: var(--fonte-principal);
+  font-size: 1.1rem;
+}
+
+a.nav-link:hover{  
+  background-color: #361b18bd;
+  color: #FFF;
+  transition: background-color .3s ease-in, color .3s ease-in;
+}
+
+#cabecalho{  
+  width: 100vw;
+  height: 800px;
+  background: #FFF url(img/Bella.gif) center/contain no-repeat;
+  position: relative;
+}
+
+#div1, #div2{
+  background-color: var(--cor-principal);
+  height: 30%;  
+  min-width: 100%;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.caixas{
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0;
+  padding: 0px;
+}
+
+p.slogan{
+  align-self: center;
+  text-align: center;
+  height: 3rem;
+  width: 100%;
+  color: var(--cor-texto);
+  font-family: var(--fonte-principal);
+  font-size: 1.3rem;
+}
+
+#div1{  
+  position: absolute;
+  top: 0;
+}
+
+#div1 .slogan{
+  margin-top: 3rem;
+}
+
+#div2{
+  position: absolute;
+  bottom: 0;
+}
+
+#conteudo{   
+  width: 100vw;
+  height: 800px;
+  position: relative;
+}
+
+#titulo1{
+  font-family: var(--fonte-principal);
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+#texto1{  
+  font-family: var(--texto-simples);
+  font-size: 0.9rem;
+  text-align: center;
+  font-weight: 400;
+}
+
+.titulo-card{
+  font-family: var(--fonte-principal);
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.texto-card{  
+  font-family: var(--texto-simples);
+  font-size: 0.9rem;
+  text-align: justify;
+  font-weight: 400;
+}
+
+
+footer{
+  background-color: var(--cor-principal);
+  color: var(--cor-texto);
+  height: 20%;
+  position: relative;
+  bottom: 0;
+  padding: 1rem;
+}
+
+footer li{
+  list-style: none;
+  margin-left: 0;
+}
+
+footer li a{  
+  color: var(--cor-texto);
+  text-decoration: none;
+}
+
+footer p{
+  color: var(--cor-texto);
+  font-size: 0.8rem;
+  position: relative;
+}
